@@ -12,6 +12,21 @@ namespace Lab1
          * Обьявляйте переменные здесь
          */
 
+        int a;
+        short b;
+        long c;
+        bool d;
+        uint ua;
+        ushort ub;
+        ulong uc;
+        byte bt;
+        char cr;
+        sbyte sbt;
+        float flt;
+        decimal dcml;
+        double dbl;
+
+        object? nullable;
 
         /*
          * Продемонстрируйте пример работы с Nullable переменной.             
