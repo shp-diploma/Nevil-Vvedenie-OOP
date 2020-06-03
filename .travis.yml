@@ -1,0 +1,16 @@
+language: csharp
+solution: Lab1.sln
+
+jobs:
+  include:
+    - dotnet: 3.1
+      mono: none
+      install:
+      - dotnet restore
+      script:
+      - dotnet test
+
+notifications:
+  webhooks: 
+    - https://shp-kursach-backend.azurewebsites.net/assignments/notify
+    - https://en3ytsvyy3zx1.x.pipedream.net
